@@ -43,5 +43,80 @@
       "reference": "Bukhari 6306",
       "explanation": "This is one of the most comprehensive duas combining Tawheed, acknowledgement of creation, commitment to the covenant, and seeking forgiveness."
     }
+  },
+  {
+    "id": "m4",
+    "arabic": "بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
+    "transliteration": "Bismillahil-ladhi la yadurru ma'as-mihi shai'un fil-ardi wa la fis-sama'i wa huwas-Sami'ul-'Alim",
+    "translation": "In the Name of Allah, with Whose Name nothing is harmed on earth nor in heaven, and He is the All-Hearing, the All-Knowing.",
+    "count": 3,
+    "insights": {
+      "meaning": "Seeking refuge in the ultimate protection of Allah's name against all unseen and seen harms.",
+      "benefits": "Whoever recites it three times in the morning will not suffer sudden affliction until the evening.",
+      "when": "Morning, repeated three times.",
+      "source": "Hadith",
+      "reference": "Abu Dawud 5088",
+      "explanation": "A powerful shield that places the believer under the divine protection of Allah, preventing harm from reaching them from any direction."
+    }
+  },
+  {
+    "id": "m5",
+    "arabic": "رَضِيتُ بِاللَّهِ رَبًّا، وَبِالْإِسْلَامِ دِينًا، وَبِمُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ نَبِيًّا",
+    "transliteration": "Raditu billahi Rabban, wa bil-Islami dinan, wa bi-Muhammadin sallallahu 'alayhi wa sallama nabiyyan",
+    "translation": "I am pleased with Allah as my Lord, with Islam as my religion, and with Muhammad (peace be upon him) as my Prophet.",
+    "count": 3,
+    "insights": {
+      "meaning": "An absolute affirmation of contentment with the core pillars of faith: the Creator, the path, and the guide.",
+      "benefits": "Allah has promised to please the one who recites this three times in the morning and evening.",
+      "when": "Morning, repeated three times.",
+      "source": "Hadith",
+      "reference": "Abu Dawud 5072",
+      "explanation": "Reciting this instills deep contentment (Rida) in the heart, wiping away worldly anxieties by focusing on ultimate spiritual truths."
+    }
+  },
+  {
+    "id": "m6",
+    "arabic": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ، عَدَدَ خَلْقِهِ، وَرِضَا نَفْسِهِ، وَزِنَةَ عَرْشِهِ، وَمِدَادَ كَلِمَاتِهِ",
+    "transliteration": "Subhanallahi wa bihamdihi, 'adada khalqihi, wa rida nafsihi, wa zinata 'arshihi, wa midada kalimatihi",
+    "translation": "Glory is to Allah and praise is to Him, by the multitude of His creation, by His Pleasure, by the weight of His Throne, and by the extent of His Words.",
+    "count": 3,
+    "insights": {
+      "meaning": "Magnifying Allah with a scale that is infinite—using His creation, throne, and words as a measure of praise.",
+      "benefits": "Carries immense reward, equivalent to sitting in continuous remembrance of Allah for hours.",
+      "when": "Morning, repeated three times.",
+      "source": "Hadith",
+      "reference": "Muslim 2726",
+      "explanation": "The Prophet (SAW) taught this to Juwayriyah (RA) as a dhikr that outweighs hours of other supplications due to its profound depth and magnitude."
+    }
+  },
+  {
+    "id": "m7",
+    "arabic": "يَا حَيُّ يَا قَيُّومُ بِرَحْمَتِكَ أَسْتَغِيثُ، أَصْلِحْ لِي شَأْنِي كُلَّهُ وَلَا تَكِلْنِي إِلَى نَفْسِي طَرْفَةَ عَيْنٍ",
+    "transliteration": "Ya Hayyu Ya Qayyum, birahmatika astaghith, aslih li sha'ni kullahu, wa la takilni ila nafsi tarfata 'ayn",
+    "translation": "O Ever-Living, O Sustainer, in Your Mercy I seek relief. Rectify for me all of my affairs and do not leave me to myself, even for the blink of an eye.",
+    "count": 1,
+    "insights": {
+      "meaning": "An urgent plea relying on Allah's eternal life and sustaining power to fix one's affairs and protect from self-reliance.",
+      "benefits": "Prevents the ego from taking over and secures divine assistance in all daily tasks.",
+      "when": "Morning.",
+      "source": "Hadith",
+      "reference": "Al-Hakim 1/545",
+      "explanation": "This dua highlights human vulnerability. By asking Allah not to leave us to ourselves for even a blink of an eye, we achieve true reliance (Tawakkul)."
+    }
+  },
+  {
+    "id": "m8",
+    "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا طَيِّبًا، وَعَمَلًا مُتَقَبَّلًا",
+    "transliteration": "Allahumma inni as'aluka 'ilman nafi'an, wa rizqan tayyiban, wa 'amalan mutaqabbalan",
+    "translation": "O Allah, I ask You for beneficial knowledge, pure provision, and acceptable deeds.",
+    "count": 1,
+    "insights": {
+      "meaning": "A focused request for the three essential components of a successful believer's day: knowledge, ethical sustenance, and accepted actions.",
+      "benefits": "Aligns your daily goals with divine pleasure and ensures worldly pursuits are pure and beneficial.",
+      "when": "Morning, immediately after Fajr prayer.",
+      "source": "Hadith",
+      "reference": "Ibn Majah 925",
+      "explanation": "This sets a clear, spiritual itinerary for the day. Without beneficial knowledge, pure provision is hard to earn, and without both, deeds may not be accepted."
+    }
   }
 ]

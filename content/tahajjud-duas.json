@@ -28,5 +28,155 @@
       "reference": "Surah Al-Baqarah 2:201",
       "explanation": "Anas (RA) said this was the dua the Prophet (SAW) recited the most. It encapsulates the complete aspiration of a believer in both worlds."
     }
+  },
+  {
+    "id": "t3",
+    "arabic": "لَا إِلَهَ إِلَّا أَنْتَ سُبْحَانَكَ إِنِّي كُنْتُ مِنَ الظَّالِمِينَ",
+    "transliteration": "La ilaha illa anta subhanaka inni kuntu minaz-zalimin",
+    "translation": "There is no deity except You; exalted are You. Indeed, I have been of the wrongdoers.",
+    "count": 1,
+    "insights": {
+      "meaning": "The supplication of Prophet Yunus (AS) in the belly of the whale, combining Tawheed, glorification, and the admission of one's own shortcomings.",
+      "benefits": "Relieves distress, anxiety, and sorrow. Allah promises to rescue believers who call upon Him with this.",
+      "when": "During moments of deep distress or when seeking urgent forgiveness in the depths of the night.",
+      "source": "Quran",
+      "reference": "Surah Al-Anbiya 21:87",
+      "explanation": "The Prophet (SAW) stated that no Muslim ever prays to his Lord with these words for anything, but He will answer his prayer."
+    }
+  },
+  {
+    "id": "t4",
+    "arabic": "اللَّهُمَّ إِنَّكَ عَفُوٌّ تُحِبُّ الْعَفْوَ فَاعْفُ عَنِّي",
+    "transliteration": "Allahumma innaka 'afuwwun tuhibbul-'afwa fa'fu 'anni",
+    "translation": "O Allah, You are forgiving and love forgiveness, so forgive me.",
+    "count": 3,
+    "insights": {
+      "meaning": "A specific plea for 'Afw (complete erasure of sins), acknowledging Allah's beautiful attribute of loving to pardon His servants.",
+      "benefits": "Brings complete pardon where the sin is entirely wiped from one's record as if it never happened.",
+      "when": "Extensively during the last third of the night, especially in the last ten nights of Ramadan.",
+      "source": "Hadith",
+      "reference": "Tirmidhi 3513",
+      "explanation": "This was the dua the Prophet (SAW) taught Aisha (RA) to recite if she realized it was Laylatul Qadr, making it the premier dua for seeking ultimate pardon."
+    }
+  },
+  {
+    "id": "t5",
+    "arabic": "اللَّهُمَّ اغْفِرْ لِي ذَنْبِي كُلَّهُ دِقَّهُ، وَجِلَّهُ، وَأَوَّلَهُ وَآخِرَهُ وَعَلَانِيَتَهُ وَسِرَّهُ",
+    "transliteration": "Allahummaghfir li dhanbi kullahu, diqqahu wa jillahu, wa awwalahu wa akhirahu, wa 'alaniyatahu wa sirrahu",
+    "translation": "O Allah, forgive me all my sins, great and small, the first and the last, those that are apparent and those that are hidden.",
+    "count": 1,
+    "insights": {
+      "meaning": "An all-encompassing plea covering every possible category of transgression a person might have committed.",
+      "benefits": "Leaves no sin unaddressed, providing a profound sense of spiritual cleansing and relief.",
+      "when": "During Sujood (prostration) in Tahajjud.",
+      "source": "Hadith",
+      "reference": "Muslim 483",
+      "explanation": "The Prophet (SAW) used to recite this extensively in his prostration, a time when the servant is closest to their Lord."
+    }
+  },
+  {
+    "id": "t6",
+    "arabic": "يَا مُقَلِّبَ الْقُلُوبِ ثَبِّتْ قَلْبِي عَلَى دِينِكَ",
+    "transliteration": "Ya Muqallibal-qulub, thabbit qalbi 'ala dinik",
+    "translation": "O Changer of the hearts, make my heart firm upon Your religion.",
+    "count": 3,
+    "insights": {
+      "meaning": "An acknowledgment that human hearts are wavering and true steadfastness comes only from Allah.",
+      "benefits": "Protects against losing faith, doubts, and the trials of life that test one's spiritual resolve.",
+      "when": "Frequently during the quietness of Tahajjud, seeking firmness for the day ahead.",
+      "source": "Hadith",
+      "reference": "Tirmidhi 2140",
+      "explanation": "Umm Salamah (RA) noted that this was the most frequent supplication of the Prophet (SAW), demonstrating that even the best of creation sought divine help to remain steadfast."
+    }
+  },
+  {
+    "id": "t7",
+    "arabic": "رَبِّ إِنِّي لِمَا أَنْزَلْتَ إِلَيَّ مِنْ خَيْرٍ فَقِيرٌ",
+    "transliteration": "Rabbi inni lima anzalta ilayya min khayrin faqir",
+    "translation": "My Lord, indeed I am, for whatever good You would send down to me, in need.",
+    "count": 1,
+    "insights": {
+      "meaning": "The dua of Prophet Musa (AS) when he was exiled, tired, and alone. A beautiful expression of absolute dependence and vulnerability before Allah.",
+      "benefits": "Opens the doors of provision, safety, and divine assistance in unexpected ways.",
+      "when": "When feeling lost, vulnerable, or in need of guidance and provision, perfectly suited for the solitude of the night prayer.",
+      "source": "Quran",
+      "reference": "Surah Al-Qasas 28:24",
+      "explanation": "Musa (AS) did not ask for a specific thing; he simply declared his utter poverty towards whatever good Allah might decree for him, resulting in Allah providing him shelter, a spouse, and a job shortly after."
+    }
+  },
+  {
+    "id": "t8",
+    "arabic": "اللَّهُمَّ اجْعَلْ فِي قَلْبِي نُورًا، وَفِي بَصَرِي نُورًا، وَفِي سَمْعِي نُورًا، وَعَنْ يَمِينِي نُورًا، وَعَنْ يَسَارِي نُورًا، وَفَوْقِي نُورًا، وَتَحْتِي نُورًا، وَأَمَامِي نُورًا، وَخَلْفِي نُورًا، وَاجْعَلْ لِي نُورًا",
+    "transliteration": "Allahummaj'al fi qalbi nuran, wa fi basari nuran, wa fi sam'i nuran, wa 'an yamini nuran, wa 'an yasari nuran, wa fawqi nuran, wa tahti nuran, wa amami nuran, wa khalfi nuran, waj'al li nuran",
+    "translation": "O Allah, place light in my heart, and in my sight light, and in my hearing light, and to my right light, and to my left light, and above me light, and below me light, and before me light, and behind me light, and grant me light.",
+    "count": 1,
+    "insights": {
+      "meaning": "A comprehensive plea for divine light (Noor) to encompass one's entire being and guide every action, thought, and sense.",
+      "benefits": "Provides spiritual clarity, protects from the darkness of ignorance, and illuminates the path in both this world and the hereafter.",
+      "when": "Perfect for the depths of the night during Tahajjud or when walking to Fajr prayer.",
+      "source": "Hadith",
+      "reference": "Bukhari 6316",
+      "explanation": "This is a deeply transformative supplication. Asking Allah to make you a vessel of His light ensures that your decisions, vision, and path are always divinely guided."
+    }
+  },
+  {
+    "id": "t9",
+    "arabic": "اللَّهُمَّ اهْدِنِي فِيمَنْ هَدَيْتَ، وَعَافِنِي فِيمَنْ عَافَيْتَ، وَتَوَلَّنِي فِيمَنْ تَوَلَّيْتَ، وَبَارِكْ لِي فِيمَا أَعْطَيْتَ، وَقِنِي شَرَّ مَا قَضَيْتَ",
+    "transliteration": "Allahummahdini fiman hadayt, wa 'afini fiman 'afayt, wa tawallani fiman tawallayt, wa barik li fima a'tayt, wa qini sharra ma qadayt",
+    "translation": "O Allah, guide me with those whom You have guided, and heal me with those whom You have healed, and care for me with those whom You have cared for, and bless me in what You have given, and protect me from the evil of what You have decreed.",
+    "count": 1,
+    "insights": {
+      "meaning": "Asking for complete physical and spiritual well-being, divine guardianship, barakah in all blessings, and absolute protection from harm.",
+      "benefits": "Places the believer directly under Allah's special care and guidance, ensuring success and safety in all matters.",
+      "when": "During the Witr prayer, which concludes the night prayers (Tahajjud).",
+      "source": "Hadith",
+      "reference": "Abu Dawud 1425",
+      "explanation": "Taught by the Prophet (SAW) to his grandson Hasan (RA), this dua covers all bases of a secure, guided, and blessed life."
+    }
+  },
+  {
+    "id": "t10",
+    "arabic": "رَبِّ اجْعَلْنِي مُقِيمَ الصَّلَاةِ وَمِنْ ذُرِّيَّتِي ۚ رَبَّنَا وَتَقَبَّلْ دُعَاءِ",
+    "transliteration": "Rabbij'alni muqimas-salati wa min dhurriyyati, Rabbana wa taqabbal du'a'",
+    "translation": "My Lord, make me an establisher of prayer, and [many] from my descendants. Our Lord, and accept my supplication.",
+    "count": 1,
+    "insights": {
+      "meaning": "The plea of Prophet Ibrahim (AS) for consistency in worship for himself and his future generations.",
+      "benefits": "Helps in fighting laziness, maintaining spiritual discipline, and building a lasting legacy of faith.",
+      "when": "Anytime, but especially beneficial in Sujood during night prayers to ask for steadfastness.",
+      "source": "Quran",
+      "reference": "Surah Ibrahim 14:40",
+      "explanation": "A powerful dua to ask Allah to make the physical act of prayer something deeply rooted and beloved in one's heart rather than a chore."
+    }
+  },
+  {
+    "id": "t11",
+    "arabic": "رَبَّنَا هَبْ لَنَا مِنْ أَزْوَاجِنَا وَذُرِّيَّاتِنَا قُرَّةَ أَعْيُنٍ وَاجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا",
+    "transliteration": "Rabbana hab lana min azwajina wa dhurriyyatina qurrata a'yunin waj'alna lil-muttaqina imama",
+    "translation": "Our Lord, grant us from among our wives and offspring comfort to our eyes and make us an example for the righteous.",
+    "count": 1,
+    "insights": {
+      "meaning": "A request for loved ones to be a source of deep joy, peace, and spiritual alignment.",
+      "benefits": "Brings harmony to relationships, softens hearts, and elevates the household's spiritual status.",
+      "when": "During Tahajjud, when asking for the well-being and future of one's partner and family.",
+      "source": "Quran",
+      "reference": "Surah Al-Furqan 25:74",
+      "explanation": "The phrase 'comfort of the eyes' (Qurrata A'yun) is a beautiful Arabic idiom for finding pure joy, relief, and peace in the presence of those you love."
+    }
+  },
+  {
+    "id": "t12",
+    "arabic": "أَنِّي مَسَّنِيَ الضُّرُّ وَأَنْتَ أَرْحَمُ الرَّاحِمِينَ",
+    "transliteration": "Anni massaniyad-durru wa anta arhamur-rahimin",
+    "translation": "Indeed, adversity has touched me, and You are the most merciful of the merciful.",
+    "count": 3,
+    "insights": {
+      "meaning": "A deeply humble way of calling out to Allah during pain or hardship without demanding relief, but merely appealing to His infinite Mercy.",
+      "benefits": "Brings miraculous relief from physical, emotional, or psychological pain.",
+      "when": "During moments of profound sadness, anxiety, or difficulty in the quiet of the night.",
+      "source": "Quran",
+      "reference": "Surah Al-Anbiya 21:83",
+      "explanation": "Prophet Ayub (AS) lost his wealth, health, and family, yet his dua was simply stating his vulnerable condition to the Most Merciful. It is the ultimate display of patience and trust."
+    }
   }
 ]
