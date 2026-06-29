@@ -13,13 +13,13 @@ export function SplashScreen({ onComplete }: Props) {
   const hijri = getTodayHijri()
   const today = new Date()
 
-  useEffect(() => {
-    const t1 = setTimeout(() => setPhase('welcome'), 1800)
-    const t2 = setTimeout(() => setPhase('dates'), 3200)
-    const t3 = setTimeout(() => setPhase('done'), 5200)
-    const t4 = setTimeout(onComplete, 5800)
-    return () => [t1, t2, t3, t4].forEach(clearTimeout)
-  }, [onComplete])
+ useEffect(() => {
+  const t1 = setTimeout(() => setPhase('welcome'), 2000)   // greeting stays 3s
+  const t2 = setTimeout(() => setPhase('dates'),   4000)   // welcome stays 3s
+  const t3 = setTimeout(() => setPhase('done'),    6000)   // dates stays 3s
+  const t4 = setTimeout(onComplete,                6600)   // quick fade then home
+  return () => [t1, t2, t3, t4].forEach(clearTimeout)
+}, [onComplete])
 
   const handleSkip = () => onComplete()
 
@@ -125,7 +125,7 @@ export function SplashScreen({ onComplete }: Props) {
           )}
         </AnimatePresence>
 
-        {/* Tap to skip */}
+        {/* Tap to skip
         <motion.p
           className="absolute bottom-12 left-0 right-0 text-center text-noor-muted text-xs"
           initial={{ opacity: 0 }}
@@ -133,7 +133,7 @@ export function SplashScreen({ onComplete }: Props) {
           transition={{ delay: 1 }}
         >
           tap anywhere to skip
-        </motion.p>
+        </motion.p> */}
       </div>
     </div>
   )
