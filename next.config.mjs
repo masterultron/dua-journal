@@ -5,7 +5,6 @@ const pwaConfig = withPWA({
   disable: process.env.NODE_ENV === 'development',
   register: true,
   skipWaiting: true,
-  customWorkerDir: 'public',
   runtimeCaching: [
     {
       urlPattern: /^https?.*/,
@@ -26,10 +25,12 @@ const pwaConfig = withPWA({
   ],
 })
 
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
   images: { unoptimized: true },
+  turbopack: {},
 }
 
 export default pwaConfig(nextConfig)

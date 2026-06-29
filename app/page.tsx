@@ -5,6 +5,7 @@ import { HomePage } from '@/components/HomePage'
 
 export default function RootPage() {
   const [splashDone, setSplashDone] = useState(false)
+
   return splashDone
     ? <HomePage />
     : <SplashScreen onComplete={() => setSplashDone(true)} />

@@ -23,15 +23,7 @@ export function FinalPage() {
           </p>
         </motion.div>
 
-        {/* AMIN */}
-        <motion.p
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4 }}
-          className="text-4xl font-bold text-noor-dark tracking-widest mb-12"
-        >
-          AMIN
-        </motion.p>
+        
 
         {/* Closing dua */}
         <motion.div
@@ -50,6 +42,16 @@ export function FinalPage() {
             And peace be upon you, and the mercy of Allah and His blessings.
           </p>
         </motion.div>
+
+        {/* AMIN */}
+        <motion.p
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.4 }}
+          className="text-4xl font-bold text-noor-dark tracking-widest mb-12"
+        >
+          AMIN
+        </motion.p>
 
         {/* Footer */}
         <motion.p
