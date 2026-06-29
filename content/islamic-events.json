@@ -1,0 +1,11 @@
+{
+  "events": [
+    { "name": "Ramadan", "hijriMonth": 9, "type": "month" },
+    { "name": "Eid al-Fitr", "hijriMonth": 10, "hijriDay": 1, "type": "day" },
+    { "name": "Eid al-Adha", "hijriMonth": 12, "hijriDay": 10, "type": "day" },
+    { "name": "Arafah Day", "hijriMonth": 12, "hijriDay": 9, "type": "day" },
+    { "name": "Islamic New Year", "hijriMonth": 1, "hijriDay": 1, "type": "day" },
+    { "name": "Prophet's Birthday", "hijriMonth": 3, "hijriDay": 12, "type": "day" },
+    { "name": "Laylatul Qadr", "hijriMonth": 9, "hijriDays": [21,23,25,27,29], "type": "multiple" }
+  ]
+}
