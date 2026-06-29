@@ -15,21 +15,26 @@ import { SettingsPage } from './pages/SettingsPage'
 import { FinalPage } from './pages/FinalPage'
 
 const PAGES = [
-  { id: 'morning',  label: 'Morning Adhkar',    component: MorningAdhkarPage },
-  { id: 'evening',  label: 'Evening Adhkar',    component: EveningAdhkarPage },
-  { id: 'tahajjud', label: 'Tahajjud Duas',     component: TahajjudPage },
-  { id: 'deceased', label: 'Dua for Deceased',  component: DeceasedDuaPage },
-  { id: 'general',  label: 'General Duas',      component: GeneralDuaPage },
-  { id: 'journal',  label: 'Prayer Journal',    component: PrayerJournalPage },
-  { id: 'favorites',label: 'Favourite Duas',    component: FavoritesPage },
-  { id: 'tracker',  label: 'Prayer Tracker',    component: PrayerTrackerPage },
-  { id: 'gratitude',label: 'Gratitude Journal', component: GratitudePage },
-  { id: 'settings', label: 'Settings',          component: SettingsPage },
-  { id: 'final',    label: 'الختام',             component: FinalPage },
+  { id: 'morning',   label: 'Morning Adhkar',    component: MorningAdhkarPage },
+  { id: 'evening',   label: 'Evening Adhkar',    component: EveningAdhkarPage },
+  { id: 'tahajjud',  label: 'Tahajjud Duas',     component: TahajjudPage },
+  { id: 'deceased',  label: 'Dua for Deceased',  component: DeceasedDuaPage },
+  { id: 'general',   label: 'General Duas',      component: GeneralDuaPage },
+  { id: 'journal',   label: 'Prayer Journal',    component: PrayerJournalPage },
+  { id: 'favorites', label: 'Favourite Duas',    component: FavoritesPage },
+  { id: 'tracker',   label: 'Prayer Tracker',    component: PrayerTrackerPage },
+  { id: 'gratitude', label: 'Gratitude Journal', component: GratitudePage },
+  { id: 'settings',  label: 'Settings',          component: SettingsPage },
+  { id: 'final',     label: 'الختام',             component: FinalPage },
 ]
 
-export function JournalNavigation({ onBack }: { onBack: () => void }) {
-  const [currentIndex, setCurrentIndex] = useState(0)
+interface Props {
+  onBack: () => void
+  initialPage?: number
+}
+
+export function JournalNavigation({ onBack, initialPage = 0 }: Props) {
+  const [currentIndex, setCurrentIndex] = useState(initialPage)
   const [direction, setDirection] = useState(1)
 
   const goTo = (idx: number) => {
@@ -65,7 +70,7 @@ export function JournalNavigation({ onBack }: { onBack: () => void }) {
         </button>
       </div>
 
-      {/* Page content with animation */}
+      {/* Page content */}
       <div className="flex-1 overflow-y-auto">
         <AnimatePresence mode="wait" custom={direction}>
           <motion.div

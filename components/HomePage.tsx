@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { ChevronRight, BookOpen, Moon, Sun, Heart, BarChart2 } from 'lucide-react'
+import { ChevronRight, BookOpen, Moon, Sun, Heart } from 'lucide-react'
 import { getTodayHijri } from '@/lib/hijri'
 import { GeometricBackground } from './GeometricBackground'
 import { JournalNavigation } from './JournalNavigation'
@@ -9,14 +9,24 @@ import dailyQuotes from '@/content/daily-quotes.json'
 
 export function HomePage() {
   const [journalOpen, setJournalOpen] = useState(false)
+  const [initialPage, setInitialPage] = useState(0)
   const hijri = getTodayHijri()
   const today = new Date()
 
-  // Rotate quote by day of year
   const dayOfYear = Math.floor((today.getTime() - new Date(today.getFullYear(), 0, 0).getTime()) / 86400000)
   const quote = dailyQuotes[dayOfYear % dailyQuotes.length]
 
-  if (journalOpen) return <JournalNavigation onBack={() => setJournalOpen(false)} />
+  const openTo = (pageIndex: number) => {
+    setInitialPage(pageIndex)
+    setJournalOpen(true)
+  }
+
+  if (journalOpen) return (
+    <JournalNavigation
+      initialPage={initialPage}
+      onBack={() => setJournalOpen(false)}
+    />
+  )
 
   return (
     <div className="min-h-screen bg-noor-bg flex flex-col relative">
@@ -30,10 +40,7 @@ export function HomePage() {
           className="text-center mb-8"
         >
           <p className="text-noor-muted text-xs tracking-widest uppercase mb-2">Bismillah</p>
-          <div
-            className="text-4xl text-noor-purple"
-            style={{ fontFamily: 'Amiri, serif' }}
-          >
+          <div className="text-4xl text-noor-purple" style={{ fontFamily: 'Amiri, serif' }}>
             النور
           </div>
         </motion.div>
@@ -79,7 +86,7 @@ export function HomePage() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
-          onClick={() => setJournalOpen(true)}
+          onClick={() => openTo(0)}
           className="w-full bg-gradient-to-r from-noor-purple to-noor-accent text-white rounded-2xl p-5 flex items-center justify-between mb-4 shadow-lg shadow-noor-purple/20 active:scale-[0.98] transition-transform"
         >
           <div className="flex items-center gap-3">
@@ -97,13 +104,13 @@ export function HomePage() {
           className="grid grid-cols-3 gap-3"
         >
           {[
-            { icon: Sun, label: 'Morning', color: 'text-amber-500', bg: 'bg-amber-50' },
-            { icon: Moon, label: 'Evening', color: 'text-indigo-500', bg: 'bg-indigo-50' },
-            { icon: Heart, label: 'Favorites', color: 'text-rose-500', bg: 'bg-rose-50' },
-          ].map(({ icon: Icon, label, color, bg }) => (
+            { icon: Sun,   label: 'Morning',   color: 'text-amber-500', bg: 'bg-amber-50',  pageIndex: 0 },
+            { icon: Moon,  label: 'Evening',   color: 'text-indigo-500', bg: 'bg-indigo-50', pageIndex: 1 },
+            { icon: Heart, label: 'Favorites', color: 'text-rose-500',  bg: 'bg-rose-50',   pageIndex: 6 },
+          ].map(({ icon: Icon, label, color, bg, pageIndex }) => (
             <button
               key={label}
-              onClick={() => setJournalOpen(true)}
+              onClick={() => openTo(pageIndex)}
               className={`${bg} rounded-2xl p-4 flex flex-col items-center gap-2 border border-white active:scale-95 transition-transform`}
             >
               <Icon className={`w-5 h-5 ${color}`} />
