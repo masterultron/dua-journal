@@ -5,6 +5,7 @@ const pwaConfig = withPWA({
   disable: process.env.NODE_ENV === 'development',
   register: true,
   skipWaiting: true,
+  customWorkerDir: 'public',
   runtimeCaching: [
     {
       urlPattern: /^https?.*/,
@@ -14,10 +15,17 @@ const pwaConfig = withPWA({
         expiration: { maxEntries: 200, maxAgeSeconds: 86400 * 30 },
       },
     },
+    {
+      urlPattern: /\/_next\/static\/.*/,
+      handler: 'CacheFirst',
+      options: {
+        cacheName: 'static-cache',
+        expiration: { maxEntries: 100, maxAgeSeconds: 86400 * 365 },
+      },
+    },
   ],
 })
 
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
